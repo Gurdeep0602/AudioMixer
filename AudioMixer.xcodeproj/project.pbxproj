@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3876F81C5A867B004D8B9B /* FDWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3876F71C5A867B004D8B9B /* FDWaveformView.m */; };
+		CA3876FF1C5A884F004D8B9B /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CA3876FB1C5A884F004D8B9B /* Submarine.aiff */; };
+		CA3877001C5A884F004D8B9B /* TchaikovskyExample2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CA3876FC1C5A884F004D8B9B /* TchaikovskyExample2.m4a */; };
+		CA3877011C5A884F004D8B9B /* TchaikovskyExample2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA3876FD1C5A884F004D8B9B /* TchaikovskyExample2.mp3 */; };
+		CA3877021C5A884F004D8B9B /* TchaikovskyExample2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CA3876FE1C5A884F004D8B9B /* TchaikovskyExample2.ogg */; };
+		CAB62C061C5A222200D574C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB62C051C5A222200D574C1 /* AppDelegate.swift */; };
+		CAB62C081C5A222200D574C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB62C071C5A222200D574C1 /* ViewController.swift */; };
+		CAB62C0B1C5A222200D574C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB62C091C5A222200D574C1 /* Main.storyboard */; };
+		CAB62C0D1C5A222200D574C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB62C0C1C5A222200D574C1 /* Assets.xcassets */; };
+		CAB62C101C5A222200D574C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB62C0E1C5A222200D574C1 /* LaunchScreen.storyboard */; };
+		CAB62C181C5A2A8B00D574C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB62C171C5A2A8B00D574C1 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA3876F61C5A867B004D8B9B /* FDWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDWaveformView.h; sourceTree = "<group>"; };
+		CA3876F71C5A867B004D8B9B /* FDWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDWaveformView.m; sourceTree = "<group>"; };
+		CA3876F91C5A870C004D8B9B /* AudioMixer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AudioMixer-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA3876FB1C5A884F004D8B9B /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
+		CA3876FC1C5A884F004D8B9B /* TchaikovskyExample2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TchaikovskyExample2.m4a; sourceTree = "<group>"; };
+		CA3876FD1C5A884F004D8B9B /* TchaikovskyExample2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TchaikovskyExample2.mp3; sourceTree = "<group>"; };
+		CA3876FE1C5A884F004D8B9B /* TchaikovskyExample2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = TchaikovskyExample2.ogg; sourceTree = "<group>"; };
+		CAB62C021C5A222200D574C1 /* AudioMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB62C051C5A222200D574C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB62C071C5A222200D574C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB62C0A1C5A222200D574C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB62C0C1C5A222200D574C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB62C0F1C5A222200D574C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB62C111C5A222200D574C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB62C171C5A2A8B00D574C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB62BFF1C5A222200D574C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB62C181C5A2A8B00D574C1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3876F51C5A867B004D8B9B /* FDWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				CA3876F61C5A867B004D8B9B /* FDWaveformView.h */,
+				CA3876F71C5A867B004D8B9B /* FDWaveformView.m */,
+			);
+			path = FDWaveformView;
+			sourceTree = "<group>";
+		};
+		CA3876FA1C5A884F004D8B9B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA3876FB1C5A884F004D8B9B /* Submarine.aiff */,
+				CA3876FC1C5A884F004D8B9B /* TchaikovskyExample2.m4a */,
+				CA3876FD1C5A884F004D8B9B /* TchaikovskyExample2.mp3 */,
+				CA3876FE1C5A884F004D8B9B /* TchaikovskyExample2.ogg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CAB62BF91C5A222200D574C1 = {
+			isa = PBXGroup;
+			children = (
+				CAB62C171C5A2A8B00D574C1 /* AVFoundation.framework */,
+				CAB62C041C5A222200D574C1 /* AudioMixer */,
+				CAB62C031C5A222200D574C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB62C031C5A222200D574C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB62C021C5A222200D574C1 /* AudioMixer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB62C041C5A222200D574C1 /* AudioMixer */ = {
+			isa = PBXGroup;
+			children = (
+				CA3876FA1C5A884F004D8B9B /* Assets */,
+				CA3876F51C5A867B004D8B9B /* FDWaveformView */,
+				CA3876F91C5A870C004D8B9B /* AudioMixer-Bridging-Header.h */,
+				CAB62C051C5A222200D574C1 /* AppDelegate.swift */,
+				CAB62C071C5A222200D574C1 /* ViewController.swift */,
+				CAB62C091C5A222200D574C1 /* Main.storyboard */,
+				CAB62C0C1C5A222200D574C1 /* Assets.xcassets */,
+				CAB62C0E1C5A222200D574C1 /* LaunchScreen.storyboard */,
+				CAB62C111C5A222200D574C1 /* Info.plist */,
+			);
+			path = AudioMixer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB62C011C5A222200D574C1 /* AudioMixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB62C141C5A222200D574C1 /* Build configuration list for PBXNativeTarget "AudioMixer" */;
+			buildPhases = (
+				CAB62BFE1C5A222200D574C1 /* Sources */,
+				CAB62BFF1C5A222200D574C1 /* Frameworks */,
+				CAB62C001C5A222200D574C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMixer;
+			productName = AudioMixer;
+			productReference = CAB62C021C5A222200D574C1 /* AudioMixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB62BFA1C5A222200D574C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gurdeep Singh";
+				TargetAttributes = {
+					CAB62C011C5A222200D574C1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CAB62BFD1C5A222200D574C1 /* Build configuration list for PBXProject "AudioMixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB62BF91C5A222200D574C1;
+			productRefGroup = CAB62C031C5A222200D574C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB62C011C5A222200D574C1 /* AudioMixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB62C001C5A222200D574C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3877021C5A884F004D8B9B /* TchaikovskyExample2.ogg in Resources */,
+				CA3876FF1C5A884F004D8B9B /* Submarine.aiff in Resources */,
+				CAB62C101C5A222200D574C1 /* LaunchScreen.storyboard in Resources */,
+				CAB62C0D1C5A222200D574C1 /* Assets.xcassets in Resources */,
+				CAB62C0B1C5A222200D574C1 /* Main.storyboard in Resources */,
+				CA3877001C5A884F004D8B9B /* TchaikovskyExample2.m4a in Resources */,
+				CA3877011C5A884F004D8B9B /* TchaikovskyExample2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB62BFE1C5A222200D574C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB62C081C5A222200D574C1 /* ViewController.swift in Sources */,
+				CAB62C061C5A222200D574C1 /* AppDelegate.swift in Sources */,
+				CA3876F81C5A867B004D8B9B /* FDWaveformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB62C091C5A222200D574C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB62C0A1C5A222200D574C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB62C0E1C5A222200D574C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB62C0F1C5A222200D574C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB62C121C5A222200D574C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB62C131C5A222200D574C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB62C151C5A222200D574C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioMixer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioMixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Gurdeep/AppInventiv/AudioMixer/AudioMixer/AudioMixer-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		CAB62C161C5A222200D574C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioMixer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AudioMixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Gurdeep/AppInventiv/AudioMixer/AudioMixer/AudioMixer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB62BFD1C5A222200D574C1 /* Build configuration list for PBXProject "AudioMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB62C121C5A222200D574C1 /* Debug */,
+				CAB62C131C5A222200D574C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB62C141C5A222200D574C1 /* Build configuration list for PBXNativeTarget "AudioMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB62C151C5A222200D574C1 /* Debug */,
+				CAB62C161C5A222200D574C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB62BFA1C5A222200D574C1 /* Project object */;
+}
